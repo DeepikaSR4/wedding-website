@@ -1,0 +1,473 @@
+/* Global CSS + Style CSS Merged - Mobile First Refactor */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: 'Playwrite US Modern', cursive;
+  background-color: #1B3225;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  color: #f9f7f0;
+}
+
+/* Hide scrollbar for all browsers */
+html,
+body,
+* {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+  /* Chrome, Safari, Opera */
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Heart Animation Background Styles */
+.bg_heart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.heart {
+  position: absolute;
+  top: -50%;
+  transform: rotate(-45deg);
+  opacity: 0.3;
+  /* Adjusted for a softer look */
+  border-bottom-left-radius: 5px;
+  /* Softer/more rounded at the bottom point */
+}
+
+.heart:before,
+.heart:after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: 100%;
+}
+
+.heart:before {
+  top: -50%;
+  left: 0;
+}
+
+.heart:after {
+  top: 0;
+  right: -50%;
+}
+
+@keyframes love {
+  0% {
+    top: -10%;
+  }
+
+  100% {
+    top: 110%;
+  }
+}
+
+/* ==================== */
+/* MAIN LAYOUT WRAPPER */
+/* ==================== */
+
+.macbook-pro {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  padding-bottom: 0;
+}
+
+/* ==================== */
+/* HERO SECTION */
+/* ==================== */
+
+.hero-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+/* Flower Top Left */
+.macbook-pro .magnolia-white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 150px;
+  /* Mobile size */
+  height: auto;
+  z-index: 1;
+}
+
+/* Names Container */
+.macbook-pro .frame {
+  margin-top: 30px;
+  /* Reduced since it's now second */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+  width: 90%;
+  max-width: 600px;
+}
+
+.macbook-pro .text-wrapper,
+.macbook-pro .text-wrapper-2 {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(2rem, 8vw, 5rem);
+  /* Responsive font */
+  line-height: 1.1;
+  color: #f9f7f0;
+}
+
+.macbook-pro .div {
+  font-family: "Cedarville Cursive-Regular", Helvetica;
+  font-size: clamp(1.5rem, 6vw, 4rem);
+  color: #f9f7f0;
+}
+
+/* "Join us..." Text */
+.macbook-pro .p {
+  margin-top: calc(15vh + 60px);
+  /* Increased from 12px to give more space from flower arrangement */
+  font-family: "Playwrite US Modern", cursive;
+  font-size: clamp(1rem, 4vw, 2rem);
+  color: #f9f7f0;
+  text-align: center;
+  width: 90%;
+}
+
+/* Date */
+.macbook-pro .sunday-february {
+  margin-top: 30px;
+  /* Better separation from Names */
+  font-family: "Playwrite US Modern", cursive;
+  font-size: clamp(1rem, 3.5vw, 1.8rem);
+  color: #f9f7f0;
+  text-align: center;
+  line-height: 1.6;
+  /* improved readability */
+}
+
+/* Couple Image */
+.macbook-pro .rectangle {
+  margin-top: 80px;
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  object-fit: cover;
+}
+
+.macbook-pro .events-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ==================== */
+/* EVENT CARDS */
+/* ==================== */
+
+.macbook-pro .frame-2,
+.macbook-pro .frame-3 {
+  width: 90%;
+  max-width: 500px;
+  padding: 50px 30px;
+  background-color: #f9f7f0;
+  border: 4px solid #d7c189;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.macbook-pro .frame-2 {
+  margin-top: 224px;
+}
+
+.macbook-pro .frame-3 {
+  margin-top: 40px;
+}
+
+.macbook-pro .frame-2:hover,
+.macbook-pro .frame-3:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.macbook-pro .text-wrapper-3 {
+  font-family: "Playfair Display", serif;
+  font-size: 2rem;
+  color: #1b3225;
+}
+
+.macbook-pro .text-wrapper-4 {
+  font-family: "Playwrite US Modern", cursive;
+  font-size: 1rem;
+  color: #1b3225;
+  line-height: 1.6;
+}
+
+.macbook-pro .div-wrapper {
+  background-color: #1b3225;
+  padding: 15px 30px;
+  border-radius: 30px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.macbook-pro .div-wrapper:hover {
+  opacity: 0.9;
+}
+
+.macbook-pro .text-wrapper-5 {
+  font-family: "Playwrite US Modern", cursive;
+  font-size: 1rem;
+  color: #f9f7f0;
+}
+
+/* Quote 1 */
+.macbook-pro .text-wrapper-6 {
+  margin-top: 124px;
+  /* Slightly increased (+24px) to follow previous shift */
+  text-align: center;
+  width: 90%;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* ==================== */
+.macbook-pro .countdown-section {
+  margin-top: 144px;
+  /* Slightly increased (+24px) */
+  width: 100%;
+  max-width: 900px;
+  padding: 20px;
+  text-align: center;
+}
+
+.macbook-pro .countdown-title {
+  font-size: 1rem;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.macbook-pro .countdown-subtitle {
+  font-family: "Playwrite US Modern", cursive;
+  font-size: 2rem;
+  /* Adjusted for cursive style */
+  margin-bottom: 40px;
+}
+
+.macbook-pro .countdown-timer {
+  display: flex;
+  flex-wrap: nowrap;
+  /* Forced same row */
+  justify-content: center;
+  gap: 8px;
+  /* Slightly tighter gap between boxes to fit row */
+}
+
+.macbook-pro .time-box {
+  background: transparent;
+  border: 2px solid #d7c189;
+  border-radius: 12px;
+  padding: 10px 5px;
+  width: clamp(65px, 22vw, 110px);
+  /* Slightly smaller base for row fit */
+  aspect-ratio: 0.9 / 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  /* Increased internal spacing as requested */
+}
+
+.macbook-pro .time-value {
+  font-family: "Playfair Display", serif;
+  font-size: clamp(1.5rem, 5vw, 2.8rem);
+  color: #ffffff;
+  line-height: 1;
+}
+
+.macbook-pro .time-label {
+  font-family: "Playwrite US Modern", cursive;
+  font-size: clamp(0.6rem, 2vw, 0.8rem);
+  color: #f9f7f0;
+  letter-spacing: 1px;
+}
+
+/* FOOTER CONTENT */
+/* ==================== */
+
+.macbook-pro .two-souls-one-wrapper {
+  margin-top: 144px;
+  /* Slightly increased (+24px) */
+  width: 90%;
+  max-width: 700px;
+  background-color: #f9f7f0;
+  padding: 60px 40px;
+  color: #1b3225;
+  text-align: center;
+  border-radius: 10px;
+  /* Optional styling to match design */
+}
+
+.macbook-pro .two-souls-one {
+  font-family: "Playwrite US Modern", cursive;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+.macbook-pro .with-love-and {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  width: 90%;
+  padding-bottom: 60px;
+  /* Increased from 12px for more space at the bottom */
+}
+
+.macbook-pro .magnolia-white-2 {
+  margin-top: 80px;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display: block;
+  /* Removes inline spacing */
+  margin-bottom: 0;
+}
+
+/* ==================== */
+/* DESKTOP ENHANCEMENTS */
+/* ==================== */
+
+@media (min-width: 1024px) {
+
+  /* Restore the large flower size */
+  .macbook-pro .magnolia-white {
+    width: 220px;
+    max-width: none;
+    top: -10px;
+    left: -10px;
+  }
+
+  /* Side-by-side Hero Layout: Full image visible flush to right */
+  .macbook-pro .rectangle {
+    position: absolute;
+    bottom: -100px;
+    /* Increased from -48px to create more "top padding" effect */
+    right: 0px;
+    width: 45%;
+    max-width: 500px;
+    height: auto;
+    margin-top: 0;
+    z-index: 5;
+    transform: rotate(5deg);
+    transform-origin: bottom right;
+  }
+
+  /* Side-by-side Events layout */
+  .macbook-pro .events-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    /* Horizontal on desktop */
+    justify-content: center;
+    gap: 40px;
+    margin-top: 224px;
+    /* Shifted down another 48px (176 + 48) */
+  }
+
+  .macbook-pro .frame-2,
+  .macbook-pro .frame-3 {
+    margin-top: 0;
+    /* Reset margins when in row */
+    flex: 1;
+    max-width: 450px;
+  }
+
+  /* Ensure text remains centered */
+  .macbook-pro .p,
+  .macbook-pro .frame,
+  .macbook-pro .sunday-february {
+    width: 55%;
+    z-index: 10;
+  }
+
+  /* Hero Spacings */
+  .macbook-pro .p {
+    margin-top: 22vh;
+    /* Increased from 18vh for better flower clearance */
+    font-size: 1.5rem;
+  }
+
+  .macbook-pro .frame {
+    margin-top: 50px;
+    gap: 20px;
+  }
+
+  /* Scale names larger but balanced */
+  .macbook-pro .text-wrapper,
+  .macbook-pro .text-wrapper-2 {
+    font-size: 4.5rem;
+  }
+
+  .macbook-pro .div {
+    font-size: 2.5rem;
+  }
+
+  .macbook-pro .sunday-february {
+    margin-top: 60px;
+    font-size: 1.4rem;
+  }
+}

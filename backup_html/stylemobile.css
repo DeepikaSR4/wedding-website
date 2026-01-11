@@ -1,0 +1,252 @@
+.iphone {
+  background-color: #1b3225;
+  width: 100%;
+  min-width: 393px;
+  min-height: 3391px;
+  position: relative;
+}
+
+.iphone .frame {
+  display: flex;
+  flex-direction: column;
+  width: 224px;
+  gap: 16px;
+  position: absolute;
+  top: 229px;
+  left: calc(50.00% - 112px);
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -2.00px;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #f9f7f0;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .div {
+  position: relative;
+  align-self: stretch;
+  font-family: "Cedarville Cursive-Regular", Helvetica;
+  font-weight: 400;
+  color: #f9f7f0;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-2 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #f9f7f0;
+  font-size: 40px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .magnolia-white {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 164px;
+  height: 181px;
+  aspect-ratio: 0.89;
+}
+
+.iphone .p {
+  position: absolute;
+  top: 166px;
+  left: calc(50.00% - 116px);
+  font-family: "Playwrite US Modern-Light", Helvetica;
+  font-weight: 300;
+  color: #f9f7f0;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .rectangle {
+  position: absolute;
+  top: 560px;
+  left: 0;
+  width: 392px;
+  height: 527px;
+}
+
+.iphone .sunday-february {
+  position: absolute;
+  top: 514px;
+  left: calc(50.00% - 104px);
+  font-family: "Playwrite US Modern-Regular", Helvetica;
+  font-weight: 400;
+  color: #f9f7f0;
+  font-size: 14.4px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .frame-2 {
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  gap: 43.2px;
+  padding: 43.2px;
+  position: absolute;
+  top: 1157px;
+  left: 37px;
+  background-color: #f9f7f0;
+  border-radius: 16px;
+  border: 4px solid;
+  border-color: #d7c189;
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Playfair Display-Regular", Helvetica;
+  font-weight: 400;
+  color: #1b3225;
+  font-size: 21.6px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  font-family: "Playwrite US Modern-Regular", Helvetica;
+  font-weight: 400;
+  color: #1b3225;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .div-wrapper {
+  display: inline-flex;
+  padding: 21.6px 43.2px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-left: -8.05px;
+  margin-right: -0.05px;
+  background-color: #1b3225;
+  border-radius: 21.6px;
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  margin-top: -0.90px;
+  font-family: "Playwrite US Modern-Regular", Helvetica;
+  font-weight: 400;
+  color: #f9f7f0;
+  font-size: 13px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .frame-3 {
+  display: flex;
+  flex-direction: column;
+  width: 317px;
+  gap: 43.2px;
+  padding: 43.2px;
+  position: absolute;
+  top: 1568px;
+  left: 39px;
+  background-color: #f9f7f0;
+  border-radius: 16px;
+  border: 4px solid;
+  border-color: #d7c189;
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone .text-wrapper-6 {
+  position: absolute;
+  top: 2002px;
+  left: calc(50.00% - 172px);
+  font-family: "Playwrite US Modern-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .with-love-and {
+  position: absolute;
+  top: 3077px;
+  left: calc(50.00% - 102px);
+  font-family: "Playwrite US Modern-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .img {
+  position: absolute;
+  top: 3181px;
+  left: 0;
+  width: 393px;
+  height: 210px;
+  aspect-ratio: 2.38;
+}
+
+.iphone .two-souls-one-wrapper {
+  display: flex;
+  width: 355px;
+  height: 508px;
+  gap: 8.5px;
+  padding: 0px 29px;
+  position: absolute;
+  top: 2464px;
+  left: 17px;
+  background-color: #f9f7f0;
+  align-items: center;
+  justify-content: center;
+}
+
+.iphone .two-souls-one {
+  position: relative;
+  width: 279px;
+  font-family: "Playwrite US Modern-Regular", Helvetica;
+  font-weight: 400;
+  color: #1b3225;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.iphone .image {
+  position: absolute;
+  top: 2050px;
+  left: 0;
+  width: 389px;
+  height: 369px;
+  aspect-ratio: 1.05;
+  object-fit: cover;
+}

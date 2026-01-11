@@ -1,0 +1,581 @@
+/* ==================== */
+/* DESKTOP STYLES */
+/* ==================== */
+
+.macbook-pro {
+    width: 100%;
+    min-width: 1581px;
+    min-height: 5079px;
+    position: relative;
+    z-index: 10;
+}
+
+.macbook-pro .magnolia-white {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 271px;
+    height: 368px;
+    aspect-ratio: 0.89;
+}
+
+.macbook-pro .frame {
+    display: flex;
+    flex-direction: column;
+    width: 448px;
+    gap: 32px;
+    /* Increased gap */
+    position: absolute;
+    top: 140px;
+    /* Moved up */
+    left: calc(50.00% - 224px);
+    align-items: center;
+    justify-content: center;
+}
+
+.macbook-pro .text-wrapper {
+    position: relative;
+    align-self: stretch;
+    margin-top: -4.00px;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    color: #f9f7f0;
+    font-size: 80px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.macbook-pro .div {
+    position: relative;
+    align-self: stretch;
+    font-family: "Cedarville Cursive-Regular", Helvetica;
+    font-weight: 400;
+    color: #f9f7f0;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.macbook-pro .text-wrapper-2 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    color: #f9f7f0;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.macbook-pro .p {
+    position: absolute;
+    top: 80px;
+    /* Moved up from 160px */
+    left: calc(50.00% - 250px);
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 300;
+    color: #f9f7f0;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.macbook-pro .sunday-february {
+    position: absolute;
+    top: 530px;
+    /* Adjusted down for spacing */
+    left: calc(50.00% - 206px);
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+    color: #f9f7f0;
+    font-size: 28.8px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.macbook-pro .rectangle {
+    position: absolute;
+    top: 220px;
+    /* Moved up to align with names */
+    left: 909px;
+    width: 672px;
+    height: 1054px;
+}
+
+.macbook-pro .frame-2 {
+    flex-direction: column;
+    width: 507px;
+    gap: 69.12px;
+    padding: 69.12px;
+    top: 1512px;
+    left: 188px;
+    border-radius: 25.6px;
+    border: 6.4px solid;
+    border-color: #d7c189;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #f9f7f0;
+    min-height: 650px;
+    /* Equal height for both cards */
+}
+
+.macbook-pro .text-wrapper-3 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    color: #1b3225;
+    font-size: 34.6px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.macbook-pro .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+    color: #1b3225;
+    font-size: 20.7px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.macbook-pro .div-wrapper {
+    display: inline-flex;
+    padding: 34.56px 69.12px;
+    position: relative;
+    flex: 0 0 auto;
+    margin-left: -13.28px;
+    margin-right: -0.48px;
+    background-color: #1b3225;
+    border-radius: 34.56px;
+    align-items: center;
+    justify-content: center;
+}
+
+.macbook-pro .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.44px;
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+    color: #f9f7f0;
+    font-size: 20.7px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.macbook-pro .frame-3 {
+    flex-direction: column;
+    width: 507px;
+    gap: 69.12px;
+    padding: 69.12px;
+    top: 1512px;
+    left: 818px;
+    border-radius: 25.6px;
+    border: 6.4px solid;
+    border-color: #d7c189;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #f9f7f0;
+    min-height: 650px;
+    /* Equal height for both cards */
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.macbook-pro .frame-2:hover,
+.macbook-pro .frame-3:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+}
+
+.macbook-pro .text-wrapper-6 {
+    position: absolute;
+    top: 2214px;
+    left: calc(50.00% - 378px);
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+/* Countdown Timer */
+.macbook-pro .countdown-section {
+    position: absolute;
+    top: 2310px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 900px;
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.macbook-pro .countdown-title {
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.macbook-pro .countdown-subtitle {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    color: #f9f7f0;
+    font-size: 56px;
+    margin-bottom: 60px;
+    letter-spacing: 1px;
+}
+
+.macbook-pro .countdown-timer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* Reduced gap */
+    flex-wrap: nowrap;
+    /* Enforce single row */
+    width: 100%;
+}
+
+.macbook-pro .time-box {
+    background: transparent;
+    border: 4px solid #d7c189;
+    /* Permanent gold border */
+    border-radius: 15px;
+    /* Slightly smaller radius */
+    padding: 20px 25px;
+    /* Reduced padding */
+    min-width: 120px;
+    /* Reduced min-width */
+    transition: all 0.3s ease;
+    flex: 1 1 0;
+    /* Flexible width */
+    max-width: 180px;
+}
+
+
+
+.macbook-pro .time-value {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 72px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+.macbook-pro .time-label {
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.macbook-pro .image {
+    position: absolute;
+    top: 2850px;
+    left: calc(50.00% - 388px);
+    width: 778px;
+    height: 738px;
+    aspect-ratio: 1.05;
+    object-fit: cover;
+}
+
+.macbook-pro .two-souls-one-wrapper {
+    width: 710px;
+    height: 1016px;
+    gap: 17px;
+    padding: 0px 58px;
+    top: 3650px;
+    left: calc(50.00% - 354px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #f9f7f0;
+}
+
+.macbook-pro .two-souls-one {
+    position: relative;
+    width: 558px;
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+    color: #1b3225;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.macbook-pro .img {
+    left: 0;
+    width: 1171px;
+    position: absolute;
+    top: 5200px;
+    height: 466px;
+    aspect-ratio: 2.38;
+}
+
+.macbook-pro .magnolia-white-2 {
+    left: 367px;
+    width: 1214px;
+    position: absolute;
+    top: 5200px;
+    height: 466px;
+    aspect-ratio: 2.38;
+}
+
+.macbook-pro .with-love-and {
+    position: absolute;
+    top: 4900px;
+    left: calc(50.00% - 218px);
+    font-family: "Playwrite US Modern", cursive;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+/* ==================== */
+/* MOBILE RESPONSIVE */
+/* ==================== */
+
+@media (max-width: 767px) {
+    .macbook-pro {
+        min-width: 320px;
+        min-height: 3900px;
+    }
+
+    .macbook-pro .frame {
+        width: min(90%, 280px);
+        gap: 16px;
+        top: 229px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .macbook-pro .text-wrapper {
+        margin-top: -2.00px;
+        font-size: clamp(32px, 10vw, 48px);
+    }
+
+    .macbook-pro .div {
+        font-size: clamp(32px, 10vw, 48px);
+    }
+
+    .macbook-pro .text-wrapper-2 {
+        font-size: clamp(32px, 10vw, 48px);
+    }
+
+    .macbook-pro .magnolia-white {
+        width: min(45%, 180px);
+        height: auto;
+    }
+
+    .macbook-pro .p {
+        top: 166px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(90%, 350px);
+        text-align: center;
+        font-size: clamp(14px, 4vw, 18px);
+    }
+
+    .macbook-pro .rectangle {
+        top: 560px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(100%, 450px);
+        height: auto;
+        aspect-ratio: 0.75;
+    }
+
+    .macbook-pro .sunday-february {
+        top: 514px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(90%, 350px);
+        text-align: center;
+        font-size: clamp(13px, 3.5vw, 16px);
+    }
+
+    .macbook-pro .frame-2 {
+        width: min(85%, 350px);
+        gap: 43.2px;
+        padding: clamp(30px, 8vw, 50px);
+        top: 1157px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 16px;
+        border: 4px solid;
+    }
+
+    .macbook-pro .text-wrapper-3 {
+        font-size: clamp(18px, 5.5vw, 24px);
+    }
+
+    .macbook-pro .text-wrapper-4 {
+        font-size: clamp(12px, 3.3vw, 15px);
+    }
+
+    .macbook-pro .div-wrapper {
+        padding: clamp(18px, 5.5vw, 24px) clamp(35px, 11vw, 50px);
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 21.6px;
+    }
+
+    .macbook-pro .text-wrapper-5 {
+        margin-top: -0.90px;
+        font-size: clamp(12px, 3.3vw, 15px);
+    }
+
+    .macbook-pro .frame-3 {
+        width: min(85%, 350px);
+        gap: 43.2px;
+        padding: clamp(30px, 8vw, 50px);
+        top: 1568px;
+        left: 50%;
+        transform: translateX(-50%);
+        border-radius: 16px;
+        border: 4px solid;
+    }
+
+    .macbook-pro .text-wrapper-6 {
+        top: 2002px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(90%, 400px);
+        text-align: center;
+        font-size: clamp(11px, 3vw, 14px);
+    }
+
+    /* Countdown Timer Mobile */
+    .macbook-pro .countdown-section {
+        top: 2100px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 30px 15px;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .macbook-pro .countdown-title {
+        font-size: clamp(11px, 3vw, 14px);
+        letter-spacing: 2px;
+        margin-bottom: 15px;
+    }
+
+    .macbook-pro .countdown-subtitle {
+        font-size: clamp(24px, 7vw, 32px);
+        margin-bottom: 30px;
+    }
+
+    .macbook-pro .countdown-timer {
+        display: flex;
+        flex-wrap: nowrap;
+        /* Force single row */
+        gap: 5px;
+        /* Minimal gap */
+        justify-content: space-between;
+        /* Distribute evenly */
+        width: 100%;
+    }
+
+    .macbook-pro .time-box {
+        padding: 10px 5px;
+        /* Minimal padding */
+        min-width: auto;
+        width: 23%;
+        /* roughly 4 boxes with gap */
+        border: 3px solid #d7c189;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .macbook-pro .time-value {
+        font-size: clamp(20px, 6vw, 28px);
+        /* Responsive font size */
+        margin-bottom: 5px;
+    }
+
+    .macbook-pro .time-label {
+        font-size: clamp(8px, 2.5vw, 10px);
+        /* Small readable label */
+        letter-spacing: 0.5px;
+    }
+
+    .macbook-pro .image {
+        top: 2550px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(100%, 450px);
+        height: auto;
+    }
+
+    .macbook-pro .two-souls-one-wrapper {
+        width: min(90%, 380px);
+        height: auto;
+        min-height: 450px;
+        gap: 8.5px;
+        padding: clamp(25px, 7vw, 35px);
+        top: 3000px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .macbook-pro .two-souls-one {
+        width: 100%;
+        font-size: clamp(14px, 4vw, 18px);
+        line-height: 1.6;
+    }
+
+    .macbook-pro .with-love-and {
+        top: 3600px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(85%, 350px);
+        text-align: center;
+        font-size: clamp(11px, 3vw, 14px);
+    }
+
+    .macbook-pro .img {
+        top: 3700px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(100%, 450px);
+        height: auto;
+    }
+
+    .macbook-pro .magnolia-white-2 {
+        top: 3700px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min(100%, 450px);
+        height: auto;
+    }
+}
