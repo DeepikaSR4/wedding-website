@@ -17,7 +17,7 @@ export default function Home() {
         <img className="magnolia-white" src="/flower-top-left-v2.png" data-aos="fade-in" data-aos-duration="1000" />
         <p className="p" data-aos="fade-in" data-aos-delay="100" data-aos-duration="800">Join us as we begin our forever</p>
         <div className="frame" data-aos="fade-in" data-aos-delay="250" data-aos-duration="1000">
-          <div className="text-wrapper">AJINKRISHA</div>
+          <div className="text-wrapper">AJINKRISHNA</div>
           <div className="div">and</div>
           <div className="text-wrapper-2">ANUSREE</div>
         </div>
