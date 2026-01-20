@@ -1,0 +1,92 @@
+.hanging-lamps {
+    position: absolute;
+    top: 0;
+    left: -5%;
+    width: 110%;
+    height: 50vh;
+    pointer-events: none;
+    z-index: 4;
+    overflow: visible;
+}
+
+.lamp-element {
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.15));
+    object-fit: cover;
+    object-position: top center;
+    clip-path: inset(10% 0 0 0);
+    margin-top: -10%;
+}
+
+/* Gentle swinging animation - slow */
+@keyframes swing-slow {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(2deg);
+    }
+
+    75% {
+        transform: rotate(-2deg);
+    }
+}
+
+.swing-slow {
+    animation: swing-slow 6s ease-in-out infinite;
+}
+
+/* Gentle swinging animation - medium */
+@keyframes swing-medium {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(-1.5deg);
+    }
+
+    75% {
+        transform: rotate(1.5deg);
+    }
+}
+
+.swing-medium {
+    animation: swing-medium 5s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+/* Mobile: Single lamp, smaller size */
+@media (max-width: 768px) {
+    .hanging-lamps {
+        height: 40vh;
+    }
+
+    .lamp-element {
+        max-width: 50px;
+    }
+
+    /* Hide second lamp on mobile */
+    .lamp-desktop {
+        display: none;
+    }
+
+    .lamp-both {
+        display: block;
+        left: 30px !important;
+        height: 56% !important;
+    }
+}
+
+/* Desktop: Show both lamps */
+@media (min-width: 769px) {
+
+    .lamp-desktop,
+    .lamp-both {
+        display: block;
+    }
+}

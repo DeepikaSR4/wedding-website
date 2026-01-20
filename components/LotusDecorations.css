@@ -1,0 +1,165 @@
+.lotus-decorations {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.lotus-element {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+    opacity: 0.4 !important;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+}
+
+/* Show desktop lotus on larger screens */
+.desktop-lotus {
+    display: block;
+}
+
+.mobile-lotus {
+    display: none;
+}
+
+/* Simplified floating animation - slow */
+@keyframes float-slow {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+}
+
+.float-slow {
+    animation: float-slow 6s ease-in-out infinite;
+}
+
+/* Simplified floating animation - medium */
+@keyframes float-medium {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+.float-medium {
+    animation: float-medium 5s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+
+/* Simplified rotate and float */
+@keyframes rotate-float {
+
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-6px) rotate(3deg);
+    }
+}
+
+.rotate-float {
+    animation: rotate-float 7s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+/* Simplified fade and float */
+@keyframes fade-float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        opacity: 0.4;
+    }
+
+    50% {
+        transform: translateY(-7px);
+        opacity: 0.25;
+    }
+}
+
+.fade-float {
+    animation: fade-float 5.5s ease-in-out infinite;
+    animation-delay: 0.8s;
+}
+
+/* Mobile: Show mobile lotus, hide desktop */
+@media (max-width: 768px) {
+    .desktop-lotus {
+        display: none;
+    }
+
+    .mobile-lotus {
+        display: block;
+    }
+
+    .lotus-element {
+        opacity: 0.35 !important;
+    }
+
+    /* Simplified mobile animations */
+    @keyframes float-slow {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-6px);
+        }
+    }
+
+    @keyframes float-medium {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-5px);
+        }
+    }
+
+    @keyframes rotate-float {
+
+        0%,
+        100% {
+            transform: translateY(0);
+        }
+
+        50% {
+            transform: translateY(-4px);
+        }
+    }
+
+    @keyframes fade-float {
+
+        0%,
+        100% {
+            transform: translateY(0);
+            opacity: 0.35;
+        }
+
+        50% {
+            transform: translateY(-5px);
+            opacity: 0.2;
+        }
+    }
+}
