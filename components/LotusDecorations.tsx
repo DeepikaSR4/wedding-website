@@ -48,22 +48,28 @@ export default function LotusDecorations() {
         { type: 'flower', top: '77%', right: '4%', size: 75, animation: 'float-slow' },
     ];
 
-    // Mobile: Increased frequency - 14 elements
+    // Mobile: Increased frequency - 20 elements
     const mobileLotus = [
-        { type: 'flower', top: '2%', left: '2%', size: 38, animation: 'float-slow' },
-        { type: 'flower', top: '8%', right: '3%', size: 42, animation: 'rotate-float' },
-        { type: 'flower', top: '15%', left: '5%', size: 40, animation: 'fade-float' },
-        { type: 'bud', top: '22%', right: '4%', size: 38, animation: 'float-medium' },
-        { type: 'flower', top: '30%', left: '3%', size: 45, animation: 'float-slow' },
-        { type: 'flower', top: '38%', right: '5%', size: 42, animation: 'rotate-float' },
-        { type: 'flower', top: '46%', left: '4%', size: 38, animation: 'fade-float' },
-        { type: 'bud', top: '54%', right: '2%', size: 40, animation: 'float-medium' },
-        { type: 'flower', top: '62%', left: '3%', size: 42, animation: 'float-slow' },
-        { type: 'flower', top: '68%', right: '4%', size: 45, animation: 'rotate-float' },
-        { type: 'bud', top: '74%', left: '5%', size: 38, animation: 'fade-float' },
-        { type: 'flower', top: '80%', right: '3%', size: 40, animation: 'float-medium' },
-        { type: 'flower', top: '86%', left: '2%', size: 42, animation: 'float-slow' },
-        { type: 'flower', top: '92%', right: '4%', size: 38, animation: 'rotate-float' },
+        { type: 'flower', top: '1%', left: '2%', size: 38, animation: 'float-slow' },
+        { type: 'flower', top: '5%', right: '3%', size: 42, animation: 'rotate-float' },
+        { type: 'bud', top: '10%', left: '5%', size: 35, animation: 'fade-float' },
+        { type: 'flower', top: '15%', right: '4%', size: 40, animation: 'float-medium' },
+        { type: 'flower', top: '20%', left: '3%', size: 45, animation: 'float-slow' },
+        { type: 'bud', top: '25%', right: '5%', size: 38, animation: 'rotate-float' },
+        { type: 'flower', top: '30%', left: '4%', size: 42, animation: 'fade-float' },
+        { type: 'flower', top: '35%', right: '2%', size: 40, animation: 'float-medium' },
+        { type: 'bud', top: '40%', left: '3%', size: 36, animation: 'float-slow' },
+        { type: 'flower', top: '45%', right: '4%', size: 44, animation: 'rotate-float' },
+        { type: 'flower', top: '50%', left: '5%', size: 38, animation: 'fade-float' },
+        { type: 'bud', top: '55%', right: '3%', size: 40, animation: 'float-medium' },
+        { type: 'flower', top: '60%', left: '2%', size: 42, animation: 'float-slow' },
+        { type: 'flower', top: '65%', right: '5%', size: 45, animation: 'rotate-float' },
+        { type: 'bud', top: '70%', left: '4%', size: 36, animation: 'fade-float' },
+        { type: 'flower', top: '75%', right: '2%', size: 40, animation: 'float-medium' },
+        { type: 'flower', top: '80%', left: '3%', size: 42, animation: 'float-slow' },
+        { type: 'bud', top: '85%', right: '4%', size: 38, animation: 'rotate-float' },
+        { type: 'flower', top: '90%', left: '5%', size: 44, animation: 'fade-float' },
+        { type: 'flower', top: '95%', right: '3%', size: 40, animation: 'float-medium' },
     ];
 
     return (

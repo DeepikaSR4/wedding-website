@@ -52,10 +52,12 @@ export default function Home() {
       <p className="text-wrapper-6">Two paths, one promise — and a lifetime of togetherness.</p>
 
       {/* Countdown Timer */}
-      <div className="countdown-section">
-        <h2 className="countdown-title">COUNTING DOWN TO</h2>
-        <h3 className="countdown-subtitle">Sunday, 08 February 2026<br />Makaram 25, 1201</h3>
-        <Countdown />
+      <div className="countdown-section" data-aos="fade-up" data-aos-duration="1000">
+        <h2 className="countdown-title" data-aos="fade-down" data-aos-delay="100">COUNTING DOWN TO</h2>
+        <h3 className="countdown-subtitle" data-aos="fade-up" data-aos-delay="200">Sunday, 08 February 2026<br />Makaram 25, 1201</h3>
+        <div data-aos="zoom-in" data-aos-delay="300">
+          <Countdown />
+        </div>
       </div>
 
       <div className="two-souls-one-wrapper">
