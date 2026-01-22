@@ -49,7 +49,7 @@ export default function Home() {
           <img className="card-footer-image" src="/lotus-footer.png" alt="" />
         </div>
       </div>
-      <p className="text-wrapper-6">Two paths, one promise — and a lifetime of togetherness.</p>
+      <p className="text-wrapper-6">Two paths, one promise  and a lifetime of togetherness.</p>
 
       {/* Countdown Timer */}
       <div className="countdown-section" data-aos="fade-up" data-aos-duration="1000">
@@ -62,11 +62,11 @@ export default function Home() {
 
       <div className="two-souls-one-wrapper">
         <p className="two-souls-one">
-          &#34;Two souls, one journey. In the gentle rhythm of life, we found each other — a bond woven by fate
+          &#34;Two souls, one journey. In the gentle rhythm of life, we found each other, a bond woven by fate
           and
           nurtured by love.&#34;<br /><br /><br />From the first smile to countless shared dreams, our paths
           intertwined
-          to create a story we&#39;re proud to call ours. Now, we begin a new chapter — one filled with promise,
+          to create a story we&#39;re proud to call ours. Now, we begin a new chapter, one filled with promise,
           love,
           and togetherness.<br />We invite you to witness and bless the beginning of our forever.
         </p>

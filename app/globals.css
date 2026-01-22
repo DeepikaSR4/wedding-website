@@ -522,15 +522,26 @@ a {
 
 .macbook-pro .two-souls-one-wrapper {
   margin-top: 144px;
-  /* Slightly increased (+24px) */
   width: 90%;
   max-width: 700px;
-  background-color: #f9f7f0;
+  background: transparent;
+  border: 2px solid rgba(90, 22, 2, 0.2);
+  border-radius: 20px;
   padding: 60px 40px;
   color: #5A1602;
   text-align: center;
-  border-radius: 10px;
-  /* Optional styling to match design */
+  box-shadow:
+    0 4px 16px rgba(90, 22, 2, 0.06),
+    0 1px 4px rgba(90, 22, 2, 0.03);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.macbook-pro .two-souls-one-wrapper:hover {
+  transform: translateY(-5px);
+  border-color: rgba(90, 22, 2, 0.35);
+  box-shadow:
+    0 8px 24px rgba(90, 22, 2, 0.1),
+    0 2px 8px rgba(90, 22, 2, 0.05);
 }
 
 .macbook-pro .two-souls-one {
